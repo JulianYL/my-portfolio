@@ -417,7 +417,7 @@ function usePodcastEpisodes(rssUrl, count = 3) {
               duration: durRaw,
               date: pub,
               appleHref: link,
-              spotifyHref: "https://open.spotify.com/show/4uIc1P0KvLJjfPCFmjXnvQ",
+              spotifyHref: "https://open.spotify.com/show/3VxSZcXUYDoc56TyL9i6dw",
             };
           });
           setEpisodes(parsed);
@@ -551,7 +551,7 @@ export default function Portfolio() {
 
   // Live feeds — YouTube channel ID for @thejanusgaze
   const { videos: ytVideos, loading: ytLoading } = useYouTubeVideos(
-    "UCWYyqu2YWLmJkC_hqbhPiyA",
+    "UC1qjBLggNDQzesqcWW6Kp8w",
     [{ id: "pLWWPg_FJ-A" }, { id: "q179nlDYowo" }]
   );
   // Podcast RSS — 从长记议 via Ximalaya/Apple RSS
@@ -771,7 +771,7 @@ export default function Portfolio() {
               <a className="sub-btn" href="https://podcasts.apple.com/fr/podcast/%E4%BB%8E%E9%95%BF%E8%AE%B0%E8%AE%AE/id1592882364" target="_blank" rel="noopener noreferrer">
                 <ApplePodcastsIcon />{t.podApple}
               </a>
-              <a className="sub-btn sub-btn-spotify" href="https://open.spotify.com/show/4uIc1P0KvLJjfPCFmjXnvQ" target="_blank" rel="noopener noreferrer">
+              <a className="sub-btn sub-btn-spotify" href="https://open.spotify.com/show/3VxSZcXUYDoc56TyL9i6dw" target="_blank" rel="noopener noreferrer">
                 <SpotifyIcon />{t.podSpotify}
               </a>
             </div>
